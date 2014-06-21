@@ -1,0 +1,305 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns:wb="http://open.weibo.com/wb">
+  <head>
+    <meta charset="utf-8">
+    <title>产品经理是一种精神！</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="keywords" content="blog, spider, online">
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link rel="shortcut icon" href="{{ ASSET_PATH }}/img/favicon.ico" type="image/x-icon">
+    
+    <!-- jQuery JS -->
+    <script src="{{ ASSET_PATH }}/js/jquery.min.js" type="text/javascript"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="{{ ASSET_PATH }}/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="{{ ASSET_PATH }}/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Sharre JS -->
+    <script src="{{ ASSET_PATH }}/js/sharrre.min.js" type="text/javascript"></script>
+
+    <!-- Slides JS -->
+    <script src="{{ ASSET_PATH }}/js/slides.min.js" type="text/javascript"></script>
+
+    <!-- Apprise -->
+    <script type="text/javascript" src="{{ ASSET_PATH }}/js/apprise/apprise-1.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ ASSET_PATH }}/css/apprise.min.css" media="screen" />
+
+    <!-- oswald font CSS -->
+    <link href="{{ ASSET_PATH }}/css/stylesheet.css" rel="stylesheet">
+
+    <!-- FancyBox -->
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/jquery.fancybox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.fancybox.pack.js"></script>
+
+    <!-- own CSS -->
+    <link href="{{ ASSET_PATH }}/css/styles.css" rel="stylesheet">
+
+    <!-- own JS -->
+    <script src="{{ ASSET_PATH }}/js/scripts.js" type="text/javascript"></script>
+    <!--SINA  -->
+<meta property="wb:webmaster" content="16802de373658126" />
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=180712396" type="text/javascript" charset="utf-8"></script>
+<!-- TENCENT -->
+<meta property="qc:admins" content="23513270076301452616636" />
+  <!--  [if lt IE 9]
+      <script src="{{ ASSET_PATH }}/js/html5.js"></script>
+    [endif]
+
+   [if IE]>
+      <link href="{{ ASSET_PATH }}/css/styles_ie.css" rel="stylesheet">
+    [endif]-->
+
+  
+          <link rel="alternate" type="application/rss+xml" title="RSS" href="http://wewantgames.de/site/rss/magazin" />
+
+
+
+
+
+<style>
+body {background:url({{ ASSET_PATH }}/img/main_back_ground.png) repeat scroll!important;}</style>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-33758548-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>   
+    
+  </head>
+  <body>
+
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '444939098872666', // App ID
+          channelUrl : '//wewantgames.de/channel.html', // Channel File
+          status     : true, // check login status
+          cookie     : true, // enable cookies to allow the server to access the session
+          xfbml      : true  // parse XFBML
+        });
+
+        // Additional initialization code here
+      };
+
+      // Load the SDK Asynchronously
+      (function(d){
+         var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement('script'); js.id = id; js.async = true;
+         js.src = "//connect.facebook.net/de_DE/all.js";
+         ref.parentNode.insertBefore(js, ref);
+       }(document));
+    </script>
+    
+    <div id="header">
+      <div id="logo">
+        <a href="javascript: void(0)">
+          <img src="{{ ASSET_PATH }}/img/logo.png" alt="Spider‘s Logo" />
+
+        </a>
+      </div>
+      <div class="terminator"></div>
+      <div id="menu">
+        <div class="level1">
+          <a href="http://www.spiderfan.cn"><span class="active">首页</span></a>
+        </div>
+        <div class="level1">
+          <a href="{{ HOME_PATH }}tags.html"><span class="active">博客分类</span></a>
+        </div>
+        <div class="terminator"></div>    
+      </div>
+    </div>
+    
+<!--幻灯片从这里开始 -->    
+  <div id="root">    
+    <div id="featured">
+      <div id="slides">
+        <div class="slides_container">
+
+          <div>
+            <a href="javascript:void(0)">
+              <img src="{{ ASSET_PATH }}/uploads/games/CGI-Crowd-l.jpg" alt="Evoland - von 1D bis 3D" width="960" />
+            </a>
+            <a href="javascript:void(0)">
+              <div class="caption">
+                <div>make it ~</div>
+              </div>
+            </a>
+          </div>
+
+          <div>
+            <a href="javascript:void(0)">
+              <img src="{{ ASSET_PATH }}/uploads/games/Spiral-Abstrait-l.jpg" alt="Test - Bioshock Infinite" width="960" />
+            </a>
+            <a href="javascript:void(0)">
+              <div class="caption">
+                
+                <div>make it come true~</div>
+              </div>
+            </a>
+          </div>
+
+          <div>
+            <a href="javascript:void(0)">
+              <img src="{{ ASSET_PATH }}/uploads/games/The-Avengers-l.jpg" alt="Evoland - von 1D bis 3D" width="960" />
+            </a>
+            <a href="javascript:void(0)">
+              <div class="caption">
+                
+                <div>spiderfan.cn</div>
+              </div>
+            </a>
+          </div>
+
+          <div>
+            <a href="javascript:void(0)">
+              <img src="{{ ASSET_PATH }}/uploads/games/Alice-in-Wonderland-s.jpg" alt="Evoland - von 1D bis 3D" width="960" />
+            </a>
+            <a href="javascript:void(0)">
+              <div class="caption">
+                
+                <div>spiderfan.cn</div>
+              </div>
+            </a>
+          </div>
+
+
+        </div>
+     
+
+        <a href="#" class="prev"><img src="{{ ASSET_PATH }}/img/slider_arrow_left.png" width="20" height="43" alt="Arrow Prev"></a>
+        <a href="#" class="next"><img src="{{ ASSET_PATH }}/img/slider_arrow_right.png" width="20" height="43" alt="Arrow Next"></a>
+    </div>
+  </div>
+
+
+<div id="main">   
+{{ content }}
+</div>
+
+<div id="right">
+  <div style="margin-top:0px;margin-bottom:15px;">
+    <div class="latest_comments">
+      <a href="http://weibo.com/zhoufanspider"><img src="{{ ASSET_PATH }}/img/weibo.png" ></a><br><br>
+        <div class="item">
+          <div class="article">
+            <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=zh_cn&width=0&height=550&fansRow=2&ptype=1&speed=300&skin=6&isTitle=1&noborder=1&isWeibo=1&isFans=0&uid=2060943722&verifier=d643d182&dpc=1">
+            </iframe>
+          </div>
+        </div>
+    </div>  
+  </div>
+
+  <div  style="margin-top: 0px;margin-bottom:  15px;">
+    <div class="latest_comments">
+      <h3><img src="{{ ASSET_PATH }}/img/say_something.png"></h3>
+      <div class="item">
+        <div class="article">
+          <h4>用数据挖掘的心洞察每个产品的灵魂</h4><br>
+          <h4>用图像处理的笔描绘每一种奇迹</h4><br>
+          <h4>用不卑不亢的勇气战胜每一种恶势力</h4><br>
+          <h4>用发现美的眼睛还原这世间的每一处光明</h4><br>
+          <h4>网站终于搭建好了，感谢@kprime的鼎力相助</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div  style="margin-top:   0px; margin-bottom:  15px;">
+    <div class="latest_comments">
+      <h3><img src="{{ ASSET_PATH }}/img/share.png" ></h3>
+      <div class="item">
+        <div class="article">
+          
+          <a href="http://coneboy.com"><font color="CD6600">『同为PM--丛香|生活从这里开始』</font></a><br>
+          <a href="http://www.bonnshore.com"><font color="CD6600">『可以叫你技术宅么--BonnShore's Script』</font></a><br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--最近博客列表 -->
+  <div  style="margin-top:   0px;margin-bottom:  15px;">
+    <div class="latest_comments">
+      <h3><img src="{{ ASSET_PATH }}/img/latest.png"></h3>
+      {% for post in site.posts limit:5 %}
+      <div class="latest_comments">
+        <div class="item">
+          <div class="article">
+            <a href="{{ BASE_PATH }}{{ post.url }}">
+              {{ post.title }} </a>
+          </div>
+        </div>
+      </div>   
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div id="footer">
+    <img src="{{ ASSET_PATH }}/img/logo.png" alt="WeWantGames" style="width: 150px; margin-bottom: 8px;" /><br />
+    爱码农，不爱代码；爱算法，不爱仿真；爱忙碌，不爱空闲；爱捣乱，不爱安静；爱自由，不爱限制；热爱一切美好的事物，为追求自己梦想而奋斗的一名未来的产品经理人，这就是我，管他人闲言碎语，这就是我，管这世间沧桑离奇。THIS IS ME----SPIDER <span style="font-style: italic; font-weight: bold;">    <br> Fuck it! We'll do it someday!
+    <hr />
+
+    <span class="span4">
+    <strong>Thanks</strong><br />
+    Someday I'll be live in a big ole city and all you're ever gonna be is Mean!
+    </span>
+
+    <span class="span4">
+    <strong>MEMO</strong><br />
+    棍棒或许会打断我的筋骨，但言语永远伤害不到我
+    </span>
+
+    <span class="span3" style="text-align: right; margin-left: 45px;">
+    <a href="http://weibo.com/zhoufanspider" target="_blank"><img src="{{ ASSET_PATH }}/img/icon_gplus.jpg" title="spiderfan@github.com" alt="Google+"/></a>
+    &nbsp;
+
+    <a href="http://weibo.com/zhoufanspider" target="_blank"><img src="{{ ASSET_PATH }}/img/icon_facebook.png" title="my weibo @ Sina" alt="Facebook" /></a>
+    &nbsp; &nbsp;
+
+    </span>     
+</div>
+
+
+
+<!-- Piwik --> 
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://wewantgames.de/piwik/" : "http://wewantgames.de/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://wewantgames.de/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->    
+<!--统计数据 -->
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F282c36b2ffc856557bb6c2ec9ffef0f4' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</body>
+</html>
